@@ -1,0 +1,79 @@
+#design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aquamarine;
+  width: 15rem;
+  padding: 7rem;
+}
+
+span {
+  display: inline-block;
+  font-size: 5rem;
+  font-weight: bolder;
+  padding: 1rem;
+  margin-bottom: 5%;
+}
+.btn {
+  display: flex;
+  gap: 5rem;
+}
+#asc {
+  color: green;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  transition: all 2s;
+}
+#des {
+  color: red;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  transition: all 2s;
+}
+
+#asc:hover {
+  color: whitesmoke;
+  background-color: green;
+  transform: scale(1.5);
+}
+#des:hover {
+  color: whitesmoke;
+  background-color: red;
+  transform: scale(1.5);
+}
+
+/* Making page responsive */
+
+@media (max-width: 500px) {
+  #design {
+    width: 8rem;
+    padding: 5rem;
+  }
+
+  .btn {
+    gap: 1rem;
+  }
+  #asc,
+  #des {
+    padding: 0.3rem;
+    font-size: 1rem;
+  }
+
+  #asc:hover,
+  #des:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 300px) {
+  #design {
+    width: 5rem;
+    padding: 2rem;
+  }
+  .btn {
+    flex-direction: column;
+  }
+}
