@@ -5,7 +5,7 @@
 
 ### Description
 
-I have Developed a web applicaaion using React that funcaions as a counter. It includes two buttons in the UI.
+I have developed a web applicaaion using React that funcaions as a counter. It includes two buttons in the UI.
 Implement the counter logic using React's state management.I used appropriate React components and hooks to manage the counter state and handle button click events.
 
 ## Features
