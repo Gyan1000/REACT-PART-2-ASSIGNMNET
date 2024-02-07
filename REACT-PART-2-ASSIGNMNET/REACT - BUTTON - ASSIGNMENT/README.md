@@ -43,10 +43,10 @@ Install dependencies
 
 ```bash
   npm install
-   axios ,
+
    react ,
-   react-dom,
-   react-router-dom
+   react-dom
+
 ```
 
 Start the server
